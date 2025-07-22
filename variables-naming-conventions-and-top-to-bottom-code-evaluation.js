@@ -24,9 +24,9 @@ Things to reflect on:
   
 */
 
-let a = "Alice";
-let b = 5;
-let c = 20;
-let d = a + " bought " + b + " items for $" + c + ".";
+let customerName = "Alice"; // Renamed from 'a' to 'customerName'
+let itemsPurchased = 5; // Renamed from 'b' to 'itemsPurchased'
+let itemPrice = 20; //Renames from 'c' to 'itemPrice'
+let totalCost = customerName + " bought " + itemsPurchased + " items for $" + itemPrice + "."; // Updated to use descriptive variables
 
-console.log(d);
+console.log(totalCost);
